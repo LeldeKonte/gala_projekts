@@ -1,0 +1,12 @@
+services:
+
+  tmdb_dashboard:
+
+    build: .
+
+    ports:
+      - "8501:8501"
+
+    volumes:
+      - ./logs:/logs
+      - ./output:/app/output

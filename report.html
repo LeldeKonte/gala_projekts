@@ -1,0 +1,32 @@
+
+    <html>
+    <body>
+
+    <h1>TMDB AI Report</h1>
+    
+        <h2>Top filmu reitings</h2>
+
+        <img src="output/chart_0.png" width="500">
+
+        <p><b>SQL:</b> 
+    SELECT title, popularity
+    FROM movies
+    ORDER BY popularity asc
+    LIMIT 15
+    </p>
+
+        <hr>
+        
+        <h2>Filmu popularitāte</h2>
+
+        <img src="output/chart_1.png" width="500">
+
+        <p><b>SQL:</b> 
+    SELECT title, popularity
+    FROM movies
+    ORDER BY popularity asc
+    LIMIT 15
+    </p>
+
+        <hr>
+        </body></html>
