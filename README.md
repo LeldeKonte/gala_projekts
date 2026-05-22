@@ -6,6 +6,7 @@ Sistēma:
 - pieslēdzas SQL serverim,
 - iegūst datus,
 - izveido grafikus,
+- izveido tabulas,
 - izveido reportu,
 - izmanto Docker Compose,
 - izmanto Streamlit UI.
